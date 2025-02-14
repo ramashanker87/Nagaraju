@@ -18,6 +18,10 @@ public class PatientController {
     public PatientController(PatientService patientService) {
         this.patientService = patientService;
     }
+    @GetMapping("/get/patient")
+    public static void getAllPatientByName() {
+
+    }
 
     @GetMapping("/get/all/patient")
     public Map<String, Patient> getAllPatients() {

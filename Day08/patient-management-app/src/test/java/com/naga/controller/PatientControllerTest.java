@@ -2,7 +2,7 @@ package com.naga.controller;
 
 import com.naga.app.model.Patient;
 import com.naga.app.service.PatientService;
-import com.naga.app.service.PatientServiceTest;
+import com.naga.service.PatientServiceTest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
